@@ -52,7 +52,11 @@ class HelperPluginManager extends AbstractPluginManager
         'url'                 => 'Zend\View\Helper\Url',
         'cycle'               => 'Zend\View\Helper\Cycle',
         'declarevars'         => 'Zend\View\Helper\DeclareVars',
-        'escape'              => 'Zend\View\Helper\Escape',
+        'escapehtml'          => 'Zend\View\Helper\EscapeHtml',
+        'escapehtmlattr'      => 'Zend\View\Helper\EscapeHtmlAttr',
+        'escapejs'            => 'Zend\View\Helper\EscapeJs',
+        'escapecss'           => 'Zend\View\Helper\EscapeCss',
+        'escapeurl'           => 'Zend\View\Helper\EscapeUrl',
         'gravatar'            => 'Zend\View\Helper\Gravatar',
         'headlink'            => 'Zend\View\Helper\HeadLink',
         'headmeta'            => 'Zend\View\Helper\HeadMeta',
@@ -74,7 +78,6 @@ class HelperPluginManager extends AbstractPluginManager
         'renderchildmodel'    => 'Zend\View\Helper\RenderChildModel',
         'rendertoplaceholder' => 'Zend\View\Helper\RenderToPlaceholder',
         'serverurl'           => 'Zend\View\Helper\ServerUrl',
-        'translator'          => 'Zend\View\Helper\Translator',
         'viewmodel'           => 'Zend\View\Helper\ViewModel',
     );
 
